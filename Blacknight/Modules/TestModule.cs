@@ -5,7 +5,7 @@ using System;
 using System.Threading.Tasks;
 using Serilog;
 
-namespace Blacknight.Modules
+namespace TemplateBot.Modules
 {
     public class TestModule : BaseCommandModule
     {
