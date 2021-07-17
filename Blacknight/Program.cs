@@ -1,9 +1,9 @@
 ﻿using System;
 
-namespace Blacknight
+namespace TemplateBot
 {
     class Program
     {
-        static void Main(string[] args) => Blacknight.RunBotAsync().GetAwaiter().GetResult();
+        static void Main(string[] args) => TemplateBot.RunBotAsync().GetAwaiter().GetResult();
     }
 }
