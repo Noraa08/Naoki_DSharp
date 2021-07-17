@@ -1,4 +1,4 @@
-﻿using DSharpPlus;
+using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -7,9 +7,9 @@ using System;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Blacknight
+namespace TemplateBot
 {
-    class Blacknight
+    class TemplateBot
     {
         private static DiscordClient _client;
         private static BotConfig _config;
