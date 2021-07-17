@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Serilog;
 using System.ComponentModel;
 
-namespace Blacknight
+namespace TemplateBot
 {
     class BotConfig
     {
