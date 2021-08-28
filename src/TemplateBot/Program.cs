@@ -1,9 +1,12 @@
-﻿using System;
+﻿using System.Threading.Tasks;
 
 namespace TemplateBot
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args) => TemplateBot.RunBotAsync().GetAwaiter().GetResult();
+        private static async Task<int> Main()
+        {
+            return await TemplateBot.RunBotAsync();
+        }
     }
 }

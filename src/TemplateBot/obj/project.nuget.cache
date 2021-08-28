@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tvZ+Wsm52KE5c8sMD8D0LSg83+Sv79rDXjjc45bvT7/PZU+7f+GdjEloKrWX11wm0mwDoRc+deX46euQxY9tVA==",
+  "dgSpecHash": "guQne5x/4r4iEg7M7sdBvZ9LzKCDPRy0LKl49itPSpzxyAz9Fyg9qnGDSq1yTTYeY8921U0w80gE7BRakAX00w==",
   "success": true,
   "projectFilePath": "D:\\dotnet-workspace\\DSharpPlus-Template\\src\\TemplateBot\\TemplateBot.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,9 @@
     "C:\\Users\\Ashle\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Ashle\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
     "C:\\Users\\Ashle\\.nuget\\packages\\serilog.extensions.logging\\3.0.1\\serilog.extensions.logging.3.0.1.nupkg.sha512",
+    "C:\\Users\\Ashle\\.nuget\\packages\\serilog.sinks.async\\1.5.0\\serilog.sinks.async.1.5.0.nupkg.sha512",
     "C:\\Users\\Ashle\\.nuget\\packages\\serilog.sinks.console\\4.0.0\\serilog.sinks.console.4.0.0.nupkg.sha512",
+    "C:\\Users\\Ashle\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\Ashle\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Ashle\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\Ashle\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
