@@ -1,19 +1,21 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.IO;
-using System.Threading.Tasks;
+﻿using System;
 using Serilog;
+using System.IO;
+using System.Text.Json;
 using System.ComponentModel;
+using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace TemplateBot
 {
-    class BotConfig
+    public class BotConfig
     {
         public static async Task<BotConfig> LoadConfigAsync(string fp)
         {
             try
             {
-                return JsonConvert.DeserializeObject<BotConfig>(await File.ReadAllTextAsync(fp));
+                await using var fs = File.OpenRead(fp);
+                return await JsonSerializer.DeserializeAsync<BotConfig>(fs);
             }
             catch (FileNotFoundException exception)
             {
@@ -27,11 +29,11 @@ namespace TemplateBot
             }
         }
 
-        [JsonProperty("token")]
+        [JsonPropertyName("token"), JsonIgnore(Condition = JsonIgnoreCondition.Never)]
         [Description("The token that is used to log in the bot.")]
         public string Token { get; set; }
 
-        [JsonProperty("prefix")]
+        [JsonPropertyName("prefix"), JsonIgnore(Condition = JsonIgnoreCondition.Never)]
         [Description("The prefix that the bot commands will use.")]
         public string Prefix { get; set; } = ">";
     }
